@@ -77,6 +77,8 @@ Gap Extend: 0.1
 
 ## 5 Build the phylogenetic tree with Mega:
 
+Test ddifferent models:
+
 #1 P-distance
 complete deletion
 
@@ -99,4 +101,38 @@ The ML tree parameters are:
 
 
 The NJ tree parameters are:
+
+### John suggested to just keep single gene modle for each gene and also get rid of the reference genes.
+Then I rerun the clustalx and rebuild the NJ tree with 100 bootstrape.
+
+Here is the paramters for the NJ trees:
+
+```
+Scope                         :  All Selected Taxa
+    Statistical Method            :  Neighbor-joining
+Phylogeny Test
+    Test of Phylogeny             :  Bootstrap method
+    No. of Bootstrap Replications :  1000
+Substitution Model
+    Substitutions Type            :  Amino acid
+    Model/Method                  :  Jones-Taylor-Thornton (JTT) model
+Rates and Patterns
+    Rates among Sites             :  Gamma Distributed (G)
+    Gamma Parameter               :  1.00
+    Pattern among Lineages        :  Same (Homogeneous)
+Data Subset to Use
+    Gaps/Missing Data Treatment   :  Pairwise deletion
+System Resource Usage
+    Number of Threads             :  8
+
+```
+# Conclusion
+The most promising gene is:
+
+Bradi4g45397 1 nonsense mutation beginning, 11 MISSENSE
+
+But for this genes, there are several Arabidopsis genes clustered with single Brachypodium genes, so I am not exactly sure if this gene works. Maybe their real orthologs get lost, and it is hard to say.
+
+
+
 
