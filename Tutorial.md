@@ -134,5 +134,6 @@ Bradi4g45397 1 nonsense mutation beginning, 11 MISSENSE
 But for this genes, there are several Arabidopsis genes clustered with single Brachypodium genes, so I am not exactly sure if this gene works. Maybe their real orthologs get lost, and it is hard to say.
 
 
+#After carefully check the mutants in the [Phytozome] (https://phytozome.jgi.doe.gov/jbrowse/index.html?data=genomes%2FBdistachyonBd21_3_er%2F&loc=Bd4%3A48682891..48700870&tracks=Mutant_Sites_Impactful%2CMutant_Sites%2CDNA%2CUserBlastResults%2CGaps%2CBlastx_protein%2CBlatx_BasalEmbryophyte%2CBlatx_Dicots%2CRNAExpression%2CBlatx_Monocots%2CAlt_Transcripts%2CTranscripts%2CPASA_assembly%2CRepeatMasker%2CT-DNAInsertionSites%2CPASA_align_EST&highlight=), I found that there are 44 mutants with mutations in this gene. But only one have nonsense mutation (NaN2154_Bd4_48691883_Het), 11 have nonsynnomous mutations. John suggested we can give the seeds with the nonsense mutations. I attached the info of the mutant in the directory.
 
 
