@@ -22,7 +22,7 @@ The Arabidopsis genes can be found in the data directory.
 
 ## 1 Do local blast for Bd21_3: Only pick the first gene model: AT4G15230.1
 
-### (1) Make he local library
+### (1) Make the local library
 
 ./makeblastdb -in /Users/LiLei/Projects/Kate_project/BdistachyonBd21_3_460_v1.1.protein.fa -dbtype prot -out /Users/LiLei/Projects/Kate_project/BdistachyonBd21_3_460_v1.1.protein
 
